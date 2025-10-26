@@ -1,4 +1,5 @@
 {
+  "buildCommand": "npm run vercel-build",
   "functions": {
     "app/layout.tsx": {
       "maxDuration": 300
