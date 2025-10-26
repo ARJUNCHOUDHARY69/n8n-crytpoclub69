@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "dropbox": "node dropbox-service.js",
-    "vercel-build": "next build && node scripts/vercel-build.js"
+    "vercel-build": "node scripts/download-all-files.js && next build"
   },
   "dependencies": {
     "critters": "^0.0.23",
