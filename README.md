@@ -70,8 +70,8 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/crypto-club-69.git
-   cd crypto-club-69
+   git clone https://github.com/ARJUNCHOUDHARY69/demos-hackathon-n8n-crytpoclub69.git
+   cd demos-hackathon-n8n-crytpoclub69
    ```
 
 2. **Install dependencies:**
@@ -375,8 +375,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 - 📧 **Email**: news@ffcryptoclub69.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/crypto-club-69/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/crypto-club-69/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/ARJUNCHOUDHARY69/demos-hackathon-n8n-crytpoclub69/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/ARJUNCHOUDHARY69/demos-hackathon-n8n-crytpoclub69/discussions)
 
 ---
 
