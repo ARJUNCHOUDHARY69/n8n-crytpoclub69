@@ -4,10 +4,8 @@ import './globals.css'
 import Header from '@/components/Header'
 import PriceTicker from '@/components/PriceTicker'
 
-// Auto-start Dropbox service in production
-if (typeof window === 'undefined' && (process.env.NODE_ENV === 'production' || process.env.VERCEL)) {
-  require('@/lib/vercel-dropbox-service')
-}
+// Note: Dropbox service is now handled by the build script (npm run vercel-build)
+// No need to start it here to avoid duplicate downloads
 
 const inter = Inter({ subsets: ['latin'] })
 
