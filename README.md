@@ -375,8 +375,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 - 📧 **Email**: news@ffcryptoclub69.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/ARJUNCHOUDHARY69/demos-hackathon-n8n-crytpoclub69/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/ARJUNCHOUDHARY69/demos-hackathon-n8n-crytpoclub69/discussions)
 
 ---
 
