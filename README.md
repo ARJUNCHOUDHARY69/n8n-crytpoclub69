@@ -374,7 +374,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🆘 Support
 
-- 📧 **Email**: news@ffcryptoclub69.com
+- 📧 **Email**: ARJUN.CHOUDHARY00070@GMAIL.COM
 
 ---
 
