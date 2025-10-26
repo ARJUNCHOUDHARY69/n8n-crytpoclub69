@@ -1,0 +1,88 @@
+{
+  "name": "Crypto Club 69 - Professional Trading Platform",
+  "short_name": "Crypto Club 69",
+  "description": "Enterprise-grade cryptocurrency trading platform with mobile-optimized P&L calculator, touch-friendly charts, and global CDN delivery.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#fbbf24",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["finance", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/gallery/crypto-dashboard-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/gallery/crypto-dashboard-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "features": [
+    "Real-time P&L Calculator",
+    "Mobile-Optimized Trading Charts",
+    "Global CDN Delivery",
+    "Touch-Friendly Interface",
+    "Professional Enterprise Design"
+  ],
+  "shortcuts": [
+    {
+      "name": "P&L Calculator",
+      "short_name": "P&L",
+      "description": "Real-time profit and loss calculator",
+      "url": "/#pl-calculator",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Trading Charts",
+      "short_name": "Charts",
+      "description": "Mobile-optimized trading charts",
+      "url": "/#trading-charts",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Market Analysis",
+      "short_name": "Analysis",
+      "description": "Advanced market analysis",
+      "url": "/analysis",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
