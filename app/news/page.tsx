@@ -141,63 +141,219 @@ export default function NewsPage() {
           {/* News Articles Grid - Mobile Optimized */}
           <div className="mt-6 sm:mt-8 md:mt-12">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6">
-              {/* Article 1 */}
-              <div className="bg-gray-800/30 rounded-xl p-4 sm:p-6 border border-gray-700/50 hover:border-crypto-gold/50 transition-colors group cursor-pointer">
+              {/* News 1 */}
+              <div className="bg-gray-800/30 rounded-xl p-4 sm:p-6 border border-gray-700/50 hover:border-orange-500/50 transition-colors group cursor-pointer">
                 <div className="flex items-center gap-3 mb-3 sm:mb-4">
                   <div className="w-8 h-8 sm:w-10 sm:h-10 bg-orange-500 rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold text-sm sm:text-base">₿</span>
+                    <span className="text-white font-bold text-sm sm:text-base">1</span>
                   </div>
                   <div>
-                    <h4 className="text-white font-semibold text-sm sm:text-base">Bitcoin Reaches New ATH</h4>
-                    <p className="text-gray-400 text-xs sm:text-sm">2 hours ago</p>
+                    <h4 className="text-white font-semibold text-sm sm:text-base">News Article 1</h4>
+                    <p className="text-gray-400 text-xs sm:text-sm">Latest updates</p>
                   </div>
                 </div>
-                <p className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-2">
-                  Bitcoin has reached a new all-time high, breaking through the $100,000 barrier for the first time in history.
-                </p>
+                <div className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3">
+                  <iframe 
+                    src="/dropbox-downloads/news1.html" 
+                    className="w-full h-32 border-0 rounded"
+                    title="News 1"
+                  />
+                </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-green-400 text-xs sm:text-sm font-semibold">+15.2%</span>
-                  <span className="text-gray-400 text-xs">Read More →</span>
+                  <span className="text-orange-400 text-xs sm:text-sm font-semibold">READ MORE</span>
+                  <span className="text-gray-400 text-xs">→</span>
                 </div>
               </div>
 
-              {/* Article 2 */}
+              {/* News 2 */}
               <div className="bg-gray-800/30 rounded-xl p-4 sm:p-6 border border-gray-700/50 hover:border-blue-500/50 transition-colors group cursor-pointer">
                 <div className="flex items-center gap-3 mb-3 sm:mb-4">
                   <div className="w-8 h-8 sm:w-10 sm:h-10 bg-blue-500 rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold text-sm sm:text-base">Ξ</span>
+                    <span className="text-white font-bold text-sm sm:text-base">2</span>
                   </div>
                   <div>
-                    <h4 className="text-white font-semibold text-sm sm:text-base">Ethereum 2.0 Upgrade</h4>
-                    <p className="text-gray-400 text-xs sm:text-sm">4 hours ago</p>
+                    <h4 className="text-white font-semibold text-sm sm:text-base">News Article 2</h4>
+                    <p className="text-gray-400 text-xs sm:text-sm">Market insights</p>
                   </div>
                 </div>
-                <p className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-2">
-                  The Ethereum network has successfully completed its transition to Proof of Stake, reducing energy consumption by 99.9%.
-                </p>
+                <div className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3">
+                  <iframe 
+                    src="/dropbox-downloads/news2.html" 
+                    className="w-full h-32 border-0 rounded"
+                    title="News 2"
+                  />
+                </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-green-400 text-xs sm:text-sm font-semibold">+8.7%</span>
-                  <span className="text-gray-400 text-xs">Read More →</span>
+                  <span className="text-blue-400 text-xs sm:text-sm font-semibold">READ MORE</span>
+                  <span className="text-gray-400 text-xs">→</span>
                 </div>
               </div>
 
-              {/* Article 3 */}
+              {/* News 3 */}
               <div className="bg-gray-800/30 rounded-xl p-4 sm:p-6 border border-gray-700/50 hover:border-green-500/50 transition-colors group cursor-pointer">
                 <div className="flex items-center gap-3 mb-3 sm:mb-4">
                   <div className="w-8 h-8 sm:w-10 sm:h-10 bg-green-500 rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold text-sm sm:text-base">D</span>
+                    <span className="text-white font-bold text-sm sm:text-base">3</span>
                   </div>
                   <div>
-                    <h4 className="text-white font-semibold text-sm sm:text-base">DeFi TVL Surges</h4>
-                    <p className="text-gray-400 text-xs sm:text-sm">6 hours ago</p>
+                    <h4 className="text-white font-semibold text-sm sm:text-base">News Article 3</h4>
+                    <p className="text-gray-400 text-xs sm:text-sm">DeFi updates</p>
                   </div>
                 </div>
-                <p className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-2">
-                  Total Value Locked in DeFi protocols has reached $200 billion, marking a new milestone in decentralized finance.
-                </p>
+                <div className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3">
+                  <iframe 
+                    src="/dropbox-downloads/news3.html" 
+                    className="w-full h-32 border-0 rounded"
+                    title="News 3"
+                  />
+                </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-green-400 text-xs sm:text-sm font-semibold">+12.3%</span>
-                  <span className="text-gray-400 text-xs">Read More →</span>
+                  <span className="text-green-400 text-xs sm:text-sm font-semibold">READ MORE</span>
+                  <span className="text-gray-400 text-xs">→</span>
+                </div>
+              </div>
+
+              {/* News 4 */}
+              <div className="bg-gray-800/30 rounded-xl p-4 sm:p-6 border border-gray-700/50 hover:border-purple-500/50 transition-colors group cursor-pointer">
+                <div className="flex items-center gap-3 mb-3 sm:mb-4">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-purple-500 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm sm:text-base">4</span>
+                  </div>
+                  <div>
+                    <h4 className="text-white font-semibold text-sm sm:text-base">News Article 4</h4>
+                    <p className="text-gray-400 text-xs sm:text-sm">NFT trends</p>
+                  </div>
+                </div>
+                <div className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3">
+                  <iframe 
+                    src="/dropbox-downloads/news4.html" 
+                    className="w-full h-32 border-0 rounded"
+                    title="News 4"
+                  />
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-purple-400 text-xs sm:text-sm font-semibold">READ MORE</span>
+                  <span className="text-gray-400 text-xs">→</span>
+                </div>
+              </div>
+
+              {/* News 5 */}
+              <div className="bg-gray-800/30 rounded-xl p-4 sm:p-6 border border-gray-700/50 hover:border-cyan-500/50 transition-colors group cursor-pointer">
+                <div className="flex items-center gap-3 mb-3 sm:mb-4">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-cyan-500 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm sm:text-base">5</span>
+                  </div>
+                  <div>
+                    <h4 className="text-white font-semibold text-sm sm:text-base">News Article 5</h4>
+                    <p className="text-gray-400 text-xs sm:text-sm">Web3 news</p>
+                  </div>
+                </div>
+                <div className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3">
+                  <iframe 
+                    src="/dropbox-downloads/news5.html" 
+                    className="w-full h-32 border-0 rounded"
+                    title="News 5"
+                  />
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-cyan-400 text-xs sm:text-sm font-semibold">READ MORE</span>
+                  <span className="text-gray-400 text-xs">→</span>
+                </div>
+              </div>
+
+              {/* News 6 */}
+              <div className="bg-gray-800/30 rounded-xl p-4 sm:p-6 border border-gray-700/50 hover:border-red-500/50 transition-colors group cursor-pointer">
+                <div className="flex items-center gap-3 mb-3 sm:mb-4">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-red-500 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm sm:text-base">6</span>
+                  </div>
+                  <div>
+                    <h4 className="text-white font-semibold text-sm sm:text-base">News Article 6</h4>
+                    <p className="text-gray-400 text-xs sm:text-sm">Blockchain tech</p>
+                  </div>
+                </div>
+                <div className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3">
+                  <iframe 
+                    src="/dropbox-downloads/news6.html" 
+                    className="w-full h-32 border-0 rounded"
+                    title="News 6"
+                  />
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-red-400 text-xs sm:text-sm font-semibold">READ MORE</span>
+                  <span className="text-gray-400 text-xs">→</span>
+                </div>
+              </div>
+
+              {/* News 7 */}
+              <div className="bg-gray-800/30 rounded-xl p-4 sm:p-6 border border-gray-700/50 hover:border-yellow-500/50 transition-colors group cursor-pointer">
+                <div className="flex items-center gap-3 mb-3 sm:mb-4">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-yellow-500 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm sm:text-base">7</span>
+                  </div>
+                  <div>
+                    <h4 className="text-white font-semibold text-sm sm:text-base">News Article 7</h4>
+                    <p className="text-gray-400 text-xs sm:text-sm">Trading analysis</p>
+                  </div>
+                </div>
+                <div className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3">
+                  <iframe 
+                    src="/dropbox-downloads/news7.html" 
+                    className="w-full h-32 border-0 rounded"
+                    title="News 7"
+                  />
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-yellow-400 text-xs sm:text-sm font-semibold">READ MORE</span>
+                  <span className="text-gray-400 text-xs">→</span>
+                </div>
+              </div>
+
+              {/* News 8 */}
+              <div className="bg-gray-800/30 rounded-xl p-4 sm:p-6 border border-gray-700/50 hover:border-indigo-500/50 transition-colors group cursor-pointer">
+                <div className="flex items-center gap-3 mb-3 sm:mb-4">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-indigo-500 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm sm:text-base">8</span>
+                  </div>
+                  <div>
+                    <h4 className="text-white font-semibold text-sm sm:text-base">News Article 8</h4>
+                    <p className="text-gray-400 text-xs sm:text-sm">Regulation updates</p>
+                  </div>
+                </div>
+                <div className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3">
+                  <iframe 
+                    src="/dropbox-downloads/news8.html" 
+                    className="w-full h-32 border-0 rounded"
+                    title="News 8"
+                  />
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-indigo-400 text-xs sm:text-sm font-semibold">READ MORE</span>
+                  <span className="text-gray-400 text-xs">→</span>
+                </div>
+              </div>
+
+              {/* News 9 */}
+              <div className="bg-gray-800/30 rounded-xl p-4 sm:p-6 border border-gray-700/50 hover:border-pink-500/50 transition-colors group cursor-pointer">
+                <div className="flex items-center gap-3 mb-3 sm:mb-4">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-pink-500 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm sm:text-base">9</span>
+                  </div>
+                  <div>
+                    <h4 className="text-white font-semibold text-sm sm:text-base">News Article 9</h4>
+                    <p className="text-gray-400 text-xs sm:text-sm">Security alerts</p>
+                  </div>
+                </div>
+                <div className="text-gray-300 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3">
+                  <iframe 
+                    src="/dropbox-downloads/news9.html" 
+                    className="w-full h-32 border-0 rounded"
+                    title="News 9"
+                  />
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-pink-400 text-xs sm:text-sm font-semibold">READ MORE</span>
+                  <span className="text-gray-400 text-xs">→</span>
                 </div>
               </div>
             </div>
@@ -208,4 +364,5 @@ export default function NewsPage() {
       <Footer />
     </>
   )
+}
 }
