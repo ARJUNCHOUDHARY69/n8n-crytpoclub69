@@ -93,6 +93,45 @@ export default function NewsPage() {
                       </div>
                     </div>
                   </div>
+
+                  {/* Category 7 - Trading */}
+                  <div className="group bg-gray-700/50 rounded-xl px-3 sm:px-4 py-2 sm:py-3 hover:bg-yellow-500 transition-all duration-300 cursor-pointer border border-gray-600/50 hover:border-yellow-500 hover:shadow-lg hover:shadow-yellow-500/30">
+                    <div className="flex items-center space-x-2 sm:space-x-3">
+                      <div className="w-8 h-8 sm:w-10 sm:h-10 bg-yellow-500 rounded-full flex items-center justify-center group-hover:bg-white transition-colors">
+                        <span className="text-white font-bold group-hover:text-yellow-500 text-sm sm:text-base">T</span>
+                      </div>
+                      <div>
+                        <h4 className="text-white font-semibold text-xs sm:text-sm">TRADING</h4>
+                        <p className="text-gray-400 text-xs group-hover:text-white/80 hidden sm:block">Market analysis</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Category 8 - Regulation */}
+                  <div className="group bg-gray-700/50 rounded-xl px-3 sm:px-4 py-2 sm:py-3 hover:bg-indigo-500 transition-all duration-300 cursor-pointer border border-gray-600/50 hover:border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/30">
+                    <div className="flex items-center space-x-2 sm:space-x-3">
+                      <div className="w-8 h-8 sm:w-10 sm:h-10 bg-indigo-500 rounded-full flex items-center justify-center group-hover:bg-white transition-colors">
+                        <span className="text-white font-bold group-hover:text-indigo-500 text-sm sm:text-base">R</span>
+                      </div>
+                      <div>
+                        <h4 className="text-white font-semibold text-xs sm:text-sm">REGULATION</h4>
+                        <p className="text-gray-400 text-xs group-hover:text-white/80 hidden sm:block">Legal updates</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Category 9 - Security */}
+                  <div className="group bg-gray-700/50 rounded-xl px-3 sm:px-4 py-2 sm:py-3 hover:bg-pink-500 transition-all duration-300 cursor-pointer border border-gray-600/50 hover:border-pink-500 hover:shadow-lg hover:shadow-pink-500/30">
+                    <div className="flex items-center space-x-2 sm:space-x-3">
+                      <div className="w-8 h-8 sm:w-10 sm:h-10 bg-pink-500 rounded-full flex items-center justify-center group-hover:bg-white transition-colors">
+                        <span className="text-white font-bold group-hover:text-pink-500 text-sm sm:text-base">S</span>
+                      </div>
+                      <div>
+                        <h4 className="text-white font-semibold text-xs sm:text-sm">SECURITY</h4>
+                        <p className="text-gray-400 text-xs group-hover:text-white/80 hidden sm:block">Cybersecurity</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="absolute top-0 right-0 w-16 h-16 bg-retro-blue/10 transform rotate-45 translate-x-8 -translate-y-8"></div>
