@@ -184,21 +184,29 @@ crypto-club-69/
 ### 🤖 **Automation Flow**
 
 ```mermaid
-graph TD
-    A[Dropbox main/ folder] --> B[Background Service]
-    B --> C[API Token Validation]
-    C --> D[File Listing & Download]
-    D --> E[Local Storage]
-    E --> F[Frontend Display]
+flowchart TD
+    A[📁 Dropbox main/ folder] --> B[🔄 Background Service]
+    B --> C[🔑 API Token Validation]
+    C --> D[📋 File Listing & Download]
+    D --> E[💾 Local Storage]
+    E --> F[🖥️ Frontend Display]
     
-    G[Vercel Build] --> H[Pre-build Script]
-    H --> I[Download All Files]
-    I --> J[Next.js Build]
-    J --> K[Deployment]
+    G[🚀 Vercel Build] --> H[⚙️ Pre-build Script]
+    H --> I[⬇️ Download All Files]
+    I --> J[🏗️ Next.js Build]
+    J --> K[🌐 Deployment]
     
-    L[25-hour Timer] --> B
-    M[Error Handling] --> B
-    N[Terminal Logging] --> B
+    L[⏰ 25-hour Timer] --> B
+    M[❌ Error Handling] --> B
+    N[📊 Terminal Logging] --> B
+    
+    O[🎯 User Uploads Content] --> A
+    P[📱 Real-time Updates] --> F
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style F fill:#e8f5e8
+    style K fill:#fff3e0
 ```
 
 ### 🔧 **Backend Components**
@@ -219,6 +227,44 @@ graph TD
 4. **📊 Real-time Logging**: Terminal output with progress tracking
 5. **🏗️ Build Integration**: Downloads all files during Vercel deployment
 6. **🎯 Content Delivery**: Frontend displays automatically updated content
+
+### 🔄 **Detailed Dropbox Workflow**
+
+```mermaid
+sequenceDiagram
+    participant U as 👤 User
+    participant D as 📁 Dropbox
+    participant S as 🔄 Background Service
+    participant L as 💾 Local Storage
+    participant F as 🖥️ Frontend
+    participant V as 🚀 Vercel
+
+    Note over U,V: Dropbox Automation Workflow
+
+    U->>D: Upload content to main/ folder
+    D->>S: File change detected
+    
+    loop Every 25 hours
+        S->>D: Request file list
+        D->>S: Return file metadata
+        S->>S: Compare with local files
+        S->>D: Download new/changed files
+        D->>S: Stream file content
+        S->>L: Save files locally
+        S->>S: Log progress to terminal
+    end
+    
+    Note over V: Build Process
+    V->>S: Trigger pre-build script
+    S->>D: Download all files
+    D->>S: Stream all content
+    S->>L: Save complete file set
+    V->>V: Build Next.js app
+    V->>F: Deploy with content
+    
+    L->>F: Serve static files
+    F->>U: Display updated content
+```
 
 ### 🚀 **Backend Commands**
 
