@@ -8,7 +8,7 @@
 
 **Professional cryptocurrency news platform with automated content management and real-time market data**
 
-[🚀 Live Demo]([https://your-demo-url.com](https://demos-hackathon-n8n-crytpoclub69.vercel.app/))
+[🚀 Live Demo]([https://demos-hackathon-n8n-crytpoclub69.vercel.app/])
 
 </div>
 
