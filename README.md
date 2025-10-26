@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![Crypto Club 69](https://img.shields.io/badge/Crypto%20Club-69-00ff00?style=for-the-badge&logo=bitcoin&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8?style=for-the-badge&logo=tailwind-css&logoColor=white)
