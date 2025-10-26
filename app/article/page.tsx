@@ -327,13 +327,17 @@ export default function ArticlePage() {
 
                   {/* Article Image */}
                   <div className="mb-6 transform -skew-x-1 group-hover:skew-x-0 transition-transform duration-300">
-                    <div className="relative w-full h-48 bg-gradient-to-br from-retro-green/20 to-retro-cyan/20 border border-retro-green/30 rounded-none overflow-hidden">
-                      <div className="absolute inset-0 bg-gradient-to-br from-retro-green/10 to-retro-cyan/10"></div>
-                      <div className="relative flex items-center justify-center h-full">
-                        <div className="text-center">
-                          <div className="w-16 h-16 bg-retro-green rounded-none flex items-center justify-center mx-auto mb-3 transform rotate-2 group-hover:rotate-0 transition-transform duration-300">
-                            <TrendingUp className="w-8 h-8 text-black" />
-                          </div>
+                    <div className="relative w-full h-48 border border-retro-green/30 rounded-none overflow-hidden">
+                      <Image
+                        src="/dropbox-downloads/photo1.jpg"
+                        alt="Bitcoin Institutional Adoption - Market Analysis"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-br from-retro-green/20 to-retro-cyan/20"></div>
+                      <div className="absolute bottom-4 left-4 right-4">
+                        <div className="bg-black/80 border border-retro-green/30 rounded-none p-3">
                           <p className="text-retro-green font-mono text-sm font-bold">BITCOIN INSTITUTIONAL ADOPTION</p>
                           <p className="text-retro-gray font-mono text-xs mt-1">Market Maturation & ETF Integration</p>
                         </div>
@@ -397,13 +401,17 @@ export default function ArticlePage() {
 
                   {/* Article Image */}
                   <div className="mb-6 transform skew-x-1 group-hover:skew-x-0 transition-transform duration-300">
-                    <div className="relative w-full h-48 bg-gradient-to-br from-retro-amber/20 to-retro-magenta/20 border border-retro-amber/30 rounded-none overflow-hidden">
-                      <div className="absolute inset-0 bg-gradient-to-br from-retro-amber/10 to-retro-magenta/10"></div>
-                      <div className="relative flex items-center justify-center h-full">
-                        <div className="text-center">
-                          <div className="w-16 h-16 bg-retro-amber rounded-none flex items-center justify-center mx-auto mb-3 transform -rotate-2 group-hover:rotate-0 transition-transform duration-300">
-                            <BarChart3 className="w-8 h-8 text-black" />
-                          </div>
+                    <div className="relative w-full h-48 border border-retro-amber/30 rounded-none overflow-hidden">
+                      <Image
+                        src="/dropbox-downloads/photo2.jpg"
+                        alt="Ethereum 2.0 Transformation - Technology Evolution"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-br from-retro-amber/20 to-retro-magenta/20"></div>
+                      <div className="absolute bottom-4 left-4 right-4">
+                        <div className="bg-black/80 border border-retro-amber/30 rounded-none p-3">
                           <p className="text-retro-amber font-mono text-sm font-bold">ETHEREUM 2.0 TRANSFORMATION</p>
                           <p className="text-retro-gray font-mono text-xs mt-1">Proof-of-Stake & DeFi Evolution</p>
                         </div>
