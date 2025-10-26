@@ -4,8 +4,8 @@ import './globals.css'
 import Header from '@/components/Header'
 import PriceTicker from '@/components/PriceTicker'
 
-// Auto-start Dropbox service in production
-if (typeof window === 'undefined' && (process.env.NODE_ENV === 'production' || process.env.VERCEL)) {
+// Auto-start Dropbox service in production (but not during build)
+if (typeof window === 'undefined' && (process.env.NODE_ENV === 'production' || process.env.VERCEL) && !process.env.VERCEL_BUILD) {
   require('@/lib/vercel-dropbox-service')
 }
 
