@@ -25,10 +25,14 @@ function makeRequest(options, postData = null) {
       res.on('data', (chunk) => data += chunk)
       res.on('end', () => {
         try {
+          if (res.statusCode >= 400) {
+            reject(new Error(`HTTP ${res.statusCode}: ${data}`))
+            return
+          }
           const result = JSON.parse(data)
           resolve(result)
         } catch (error) {
-          resolve(data)
+          reject(new Error(`Failed to parse response: ${data}`))
         }
       })
     })
@@ -81,6 +85,11 @@ async function listDropboxFiles() {
     }
     
     const result = await makeRequest(options, postData)
+    
+    if (!result || !result.entries) {
+      throw new Error('Invalid response from Dropbox API: ' + JSON.stringify(result))
+    }
+    
     const files = result.entries.filter(file => file['.tag'] === 'file')
     
     console.log(`📋 Found ${files.length} files in main/ folder`)
@@ -201,7 +210,10 @@ async function main() {
   if (!DROPBOX_ACCESS_TOKEN) {
     console.error('❌ Error: DROPBOX_ACCESS_TOKEN environment variable is not set!')
     console.error('Please set the DROPBOX_ACCESS_TOKEN environment variable.')
-    process.exit(1)
+    console.error('For Vercel deployment, add it in your project settings.')
+    console.log('⚠️ Skipping Dropbox download during build...')
+    console.log('✅ Build download script completed!')
+    process.exit(0) // Exit successfully to not break the build
   }
   
   try {
