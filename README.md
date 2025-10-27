@@ -589,12 +589,10 @@ This project can be deployed to any platform supporting Next.js:
 <div align="center">
 
 ### Homepage
-![Homepage]
 <img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/43486c45-7b39-42a5-af41-b5dd8bd56984" />
 
 
 ### News Page
-![News Page]
 <img width="1912" height="903" alt="image" src="https://github.com/user-attachments/assets/5f9362f8-821d-48c2-965d-737062f7a566" />
 
 ---
@@ -603,8 +601,26 @@ This project can be deployed to any platform supporting Next.js:
 ---
 
 
-### Mobile View
-![Mobile]
+### MARKETS PAGE
+<img width="1916" height="908" alt="image" src="https://github.com/user-attachments/assets/1d37a2b0-b6c8-465d-b8c1-f2d046cc5917" />
+
+### ANAYLSIS PAGE
+<img width="1914" height="906" alt="image" src="https://github.com/user-attachments/assets/8a6f1d4c-3363-4a20-9740-a161be843f2f" />
+
+### ARTICLE PAGE
+<img width="1918" height="900" alt="image" src="https://github.com/user-attachments/assets/2a726e59-3174-4d9e-9fac-90aed37be521" />
+
+
+### IMAGE GALLERY
+
+<img width="1912" height="911" alt="image" src="https://github.com/user-attachments/assets/f2bf6609-4823-4261-80ff-255296ac7b94" />
+
+<img width="1915" height="889" alt="image" src="https://github.com/user-attachments/assets/aa897d5e-26f8-4c3d-9183-1ae02ce1849d" />
+
+
+
+
+
 </div>
 
 ---
