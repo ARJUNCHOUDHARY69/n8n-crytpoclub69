@@ -35,6 +35,8 @@
 - 💰 **Cost-Effective** - No content creators needed, just automation
 - 🎯 **Binance Square Optimized** - Content designed for maximum engagement on Binance
 
+[data  on drive for proof](https://drive.google.com/drive/folders/1JRlmPnCk3jkcKerTFi-aRk_rloXKkP3d?usp=sharing)
+
 ### 🤖 **n8n Automation Features**
 - 🧠 **AI Content Generation** - Automated article writing and image creation
 - 📁 **Dropbox Integration** - Seamless file management and sync
@@ -94,6 +96,13 @@
 
 ## 🤖 How The n8n Automation Actually Works
 
+<img width="521" height="292" alt="Screenshot 2025-10-27 062044" src="https://github.com/user-attachments/assets/4ccdf417-484c-47c9-bc8d-2065d36f908d" />
+
+
+<img width="818" height="382" alt="Screenshot 2025-10-27 062250" src="https://github.com/user-attachments/assets/fdd226f8-06f6-4cf9-8b53-4eb5ec127903" />
+
+
+
 ### 🔄 **Workflow 1: Social Media Content Distribution**
 This n8n workflow automates the creation and multi-platform distribution of crypto news content:
 
@@ -104,6 +113,12 @@ This n8n workflow automates the creation and multi-platform distribution of cryp
   - **Twitter Branch:** Creates tweets via X (Twitter) node
   - **Telegram Text:** Sends text messages via Telegram node
   - **Telegram Images:** Generates images and sends as photo messages
+
+ ---
+
+<img width="528" height="588" alt="Screenshot 2025-10-27 062441" src="https://github.com/user-attachments/assets/2c84a80c-9c23-4aa6-a5c6-6a28da654483" />
+
+
 
 ### 🎨 **Workflow 2: Mass Content Generation & Archiving**
 This workflow focuses on large-scale content library creation:
@@ -116,6 +131,13 @@ This workflow focuses on large-scale content library creation:
 * **📄 HTML Template Generation:** Creates structured HTML files for website content
 * **💾 Final Archiving:** All content automatically saved to Google Drive
 
+
+---
+
+
+<img width="580" height="326" alt="Screenshot 2025-10-27 063006" src="https://github.com/user-attachments/assets/0b2180ab-1059-44d8-b7cb-9842229d1cd1" />
+
+
 ### 📝 **Workflow 3: Article & Image Creation**
 Automates the creation of articles with accompanying visuals:
 
@@ -124,6 +146,12 @@ Automates the creation of articles with accompanying visuals:
 * **⚙️ Data Structure (Code in Python):** Separates article text from image prompts
 * **🖼️ Parallel Image Creation:** Generates 2+ distinct images simultaneously
 * **📄 Article Finalization:** Converts text to files and uploads to Google Drive
+
+---
+
+<img width="396" height="184" alt="Screenshot 2025-10-27 063120" src="https://github.com/user-attachments/assets/6e437b4a-da33-462f-aeb0-4e521a6ee502" />
+
+
 
 ### 🎬 **Workflow 4: Video Content Production**
 AI-driven video generation for maximum engagement:
@@ -142,6 +170,10 @@ AI-driven video generation for maximum engagement:
 4. **🔄 24/7 Operation:** Never stops creating and distributing content
 5. **📊 Data-Driven:** Uses real crypto news and market data
 6. **🎯 Platform Optimized:** Content tailored for each platform's algorithm
+
+<img width="1915" height="909" alt="Screenshot 2025-10-27 070758" src="https://github.com/user-attachments/assets/5405770c-380e-4983-9077-b82811fcfc70" />
+
+
 
 ### 📊 **Simple n8n Workflow Flow**
 
@@ -169,6 +201,31 @@ flowchart TD
     style J fill:#4caf50
     style L fill:#ff9800
 ```
+---
+
+<img width="348" height="496" alt="Screenshot 2025-10-27 064206" src="https://github.com/user-attachments/assets/5a6c9a91-4d5e-4819-803f-fa7382211137" />
+
+---
+
+
+<img width="755" height="441" alt="Screenshot 2025-10-27 064219" src="https://github.com/user-attachments/assets/5683b03c-8dfa-419e-a6d3-c9f2f3e08fe9" />
+
+---
+
+
+<img width="574" height="491" alt="Screenshot 2025-10-27 064242" src="https://github.com/user-attachments/assets/9c6c3a4e-3586-4438-811b-b60e97b7e0f1" />
+
+---
+
+
+<img width="803" height="562" alt="Screenshot 2025-10-27 064313" src="https://github.com/user-attachments/assets/58580f75-9808-4c4e-98b2-b44a4803d17e" />
+
+---
+
+
+<img width="790" height="378" alt="Screenshot 2025-10-27 064322" src="https://github.com/user-attachments/assets/8f240d96-ff4e-47a3-bd9b-f5227b030bbd" />
+
+
 
 ### 🔄 **How It Works (Simple Steps)**
 
@@ -205,7 +262,7 @@ flowchart TD
 
 ---
 
-## 🚀 Quick Start - Get Your 150K Views
+## 🚀 Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
@@ -524,13 +581,37 @@ This project can be deployed to any platform supporting Next.js:
 <div align="center">
 
 ### Homepage
-![Homepage](https://via.placeholder.com/800x400/000000/00ff00?text=CRYPTO+CLUB+69+Homepage)
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/43486c45-7b39-42a5-af41-b5dd8bd56984" />
+
 
 ### News Page
-![News Page](https://via.placeholder.com/800x400/000000/00ff00?text=News+Page+with+Glassmorphism)
+<img width="1912" height="903" alt="image" src="https://github.com/user-attachments/assets/5f9362f8-821d-48c2-965d-737062f7a566" />
 
-### Mobile View
-![Mobile](https://via.placeholder.com/400x800/000000/00ff00?text=Mobile+Responsive+Design)
+---
+<img width="1917" height="908" alt="image" src="https://github.com/user-attachments/assets/e7b8114f-bb9a-4ff3-8416-201bb082cd37" />
+
+---
+
+
+### MARKETS PAGE
+<img width="1916" height="908" alt="image" src="https://github.com/user-attachments/assets/1d37a2b0-b6c8-465d-b8c1-f2d046cc5917" />
+
+### ANAYLSIS PAGE
+<img width="1914" height="906" alt="image" src="https://github.com/user-attachments/assets/8a6f1d4c-3363-4a20-9740-a161be843f2f" />
+
+### ARTICLE PAGE
+<img width="1918" height="900" alt="image" src="https://github.com/user-attachments/assets/2a726e59-3174-4d9e-9fac-90aed37be521" />
+
+
+### IMAGE GALLERY
+
+<img width="1912" height="911" alt="image" src="https://github.com/user-attachments/assets/f2bf6609-4823-4261-80ff-255296ac7b94" />
+
+<img width="1915" height="889" alt="image" src="https://github.com/user-attachments/assets/aa897d5e-26f8-4c3d-9183-1ae02ce1849d" />
+
+
+
+
 
 </div>
 
