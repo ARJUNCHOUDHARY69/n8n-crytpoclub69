@@ -104,6 +104,13 @@ Month 4: 75K → 150K+ views (Viral Content Hits - All Genuine!)
 
 ## 🤖 How The n8n Automation Actually Works
 
+<img width="521" height="292" alt="Screenshot 2025-10-27 062044" src="https://github.com/user-attachments/assets/4ccdf417-484c-47c9-bc8d-2065d36f908d" />
+
+
+<img width="818" height="382" alt="Screenshot 2025-10-27 062250" src="https://github.com/user-attachments/assets/fdd226f8-06f6-4cf9-8b53-4eb5ec127903" />
+
+
+
 ### 🔄 **Workflow 1: Social Media Content Distribution**
 This n8n workflow automates the creation and multi-platform distribution of crypto news content:
 
@@ -114,6 +121,12 @@ This n8n workflow automates the creation and multi-platform distribution of cryp
   - **Twitter Branch:** Creates tweets via X (Twitter) node
   - **Telegram Text:** Sends text messages via Telegram node
   - **Telegram Images:** Generates images and sends as photo messages
+
+ ---
+
+<img width="528" height="588" alt="Screenshot 2025-10-27 062441" src="https://github.com/user-attachments/assets/2c84a80c-9c23-4aa6-a5c6-6a28da654483" />
+
+
 
 ### 🎨 **Workflow 2: Mass Content Generation & Archiving**
 This workflow focuses on large-scale content library creation:
@@ -126,6 +139,13 @@ This workflow focuses on large-scale content library creation:
 * **📄 HTML Template Generation:** Creates structured HTML files for website content
 * **💾 Final Archiving:** All content automatically saved to Google Drive
 
+
+---
+
+
+<img width="580" height="326" alt="Screenshot 2025-10-27 063006" src="https://github.com/user-attachments/assets/0b2180ab-1059-44d8-b7cb-9842229d1cd1" />
+
+
 ### 📝 **Workflow 3: Article & Image Creation**
 Automates the creation of articles with accompanying visuals:
 
@@ -134,6 +154,12 @@ Automates the creation of articles with accompanying visuals:
 * **⚙️ Data Structure (Code in Python):** Separates article text from image prompts
 * **🖼️ Parallel Image Creation:** Generates 2+ distinct images simultaneously
 * **📄 Article Finalization:** Converts text to files and uploads to Google Drive
+
+---
+
+<img width="396" height="184" alt="Screenshot 2025-10-27 063120" src="https://github.com/user-attachments/assets/6e437b4a-da33-462f-aeb0-4e521a6ee502" />
+
+
 
 ### 🎬 **Workflow 4: Video Content Production**
 AI-driven video generation for maximum engagement:
@@ -152,6 +178,10 @@ AI-driven video generation for maximum engagement:
 4. **🔄 24/7 Operation:** Never stops creating and distributing content
 5. **📊 Data-Driven:** Uses real crypto news and market data
 6. **🎯 Platform Optimized:** Content tailored for each platform's algorithm
+
+
+![Uploading Screenshot 2025-10-27 070758.png…]()
+
 
 ### 📊 **Simple n8n Workflow Flow**
 
