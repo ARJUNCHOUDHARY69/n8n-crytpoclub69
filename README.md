@@ -213,7 +213,7 @@ flowchart TD
 
 ---
 
-## 🚀 Quick Start - Get Your 150K Views
+## 🚀 Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
