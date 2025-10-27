@@ -9,7 +9,9 @@
 
 **From zero to 150K+ GENUINE views on Binance Square using n8n automation - No bots, no fake engagement, just real organic growth**
 
-[🚀 Live Demo](https://demos-hackathon-n8n-crytpoclub69.vercel.app/) | [📊 View Analytics Proof](#-real-proof--analytics)
+[🚀 Live Demo](https://demos-hackathon-n8n-crytpoclub69.vercel.app/) 
+<img width="1915" height="450" alt="Screenshot 2025-10-27 070253" src="https://github.com/user-attachments/assets/bc77a442-1b8e-4fcf-9d34-49c3fb551a39" />
+
 
 </div>
 
