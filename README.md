@@ -9,7 +9,6 @@
 
 **From zero to 150K+ GENUINE views on Binance Square using n8n automation - No bots, no fake engagement, just real organic growth**
 
-[🚀 Live Demo](https://demos-hackathon-n8n-crytpoclub69.vercel.app/)
 
 
 
@@ -35,7 +34,6 @@
 - 💰 **Cost-Effective** - No content creators needed, just automation
 - 🎯 **Binance Square Optimized** - Content designed for maximum engagement on Binance
 
-[data  on drive for proof](https://drive.google.com/drive/folders/1JRlmPnCk3jkcKerTFi-aRk_rloXKkP3d?usp=sharing)
 
 ### 🤖 **n8n Automation Features**
 - 🧠 **AI Content Generation** - Automated article writing and image creation
